@@ -11,4 +11,6 @@ RUN gem install --no-rdoc --no-ri github-pages -v 37
 
 WORKDIR /site
 
+EXPOSE 4000
+
 ENTRYPOINT ["jekyll"]
